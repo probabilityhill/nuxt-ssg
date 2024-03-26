@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+  import '~/assets/stylus/main.styl'
+</script>
 
 <template>
   <div>
@@ -8,4 +10,4 @@
   </div>
 </template>
 
-<style scoped></style>
+<style lang="stylus" scoped></style>
