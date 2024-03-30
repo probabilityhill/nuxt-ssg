@@ -12,10 +12,9 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
-    "eslint-config-prettier": "^9.1.0",
     "nuxt": "^3.11.1",
-    "prettier": "^3.2.5",
-    "stylus": "^0.63.0",
+    "sass": "^1.72.0",
+    "typescript": "^5.4.3",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
   },
@@ -24,7 +23,12 @@
     "@nuxtjs/eslint-config-typescript": "^12.1.0",
     "@typescript-eslint/parser": "^6.21.0",
     "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-nuxt": "^4.0.0",
-    "typescript": "^5.4.3"
+    "prettier": "^3.2.5",
+    "stylelint": "^16.3.1",
+    "stylelint-config-prettier-scss": "^1.0.0",
+    "stylelint-config-recess-order": "^5.0.0",
+    "stylelint-config-standard-scss": "^13.0.0"
   }
 }
